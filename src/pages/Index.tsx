@@ -9,9 +9,9 @@ import { HomeIndicator } from '@/components/HomeIndicator';
 const Index = () => {
   return (
     <div
-      className="w-full min-h-[932px] relative overflow-hidden bg-white max-md:min-h-screen max-sm:min-h-screen"
+      className="w-[428px] h-[938px] relative overflow-hidden mx-auto font-sf-pro"
       style={{
-        background: 'linear-gradient(180deg, #1a365d 0%, #2d5a87 50%, #4a90a4 100%)'
+        background: 'linear-gradient(75deg, hsl(var(--forest-green)) 17.55%, hsl(var(--forest-green-light)) 114.5%)'
       }}
     >
       <div className="w-full h-[938px] absolute left-0 top-0" />

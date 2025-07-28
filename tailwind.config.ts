@@ -18,7 +18,16 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'sf-pro': ['SF Pro', 'system-ui', 'sans-serif'],
+			},
 			colors: {
+				'forest-green': 'hsl(var(--forest-green))',
+				'forest-green-light': 'hsl(var(--forest-green-light))',
+				'warm-white': 'hsl(var(--warm-white))',
+				'secondary-40': 'hsl(var(--secondary-40))',
+				'primary-50': 'hsl(var(--primary-50))',
+				'primary-dark': 'hsl(var(--primary-dark))',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',

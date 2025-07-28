@@ -10,6 +10,14 @@ All colors MUST be HSL.
   :root {
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
+    
+    /* Design system colors */
+    --forest-green: 150 56% 19%; /* #205B3D */
+    --forest-green-light: 150 60% 52%; /* #44C181 */
+    --warm-white: 31 38% 96%; /* #F8F1EC */
+    --secondary-40: 42 90% 88%; /* #FDEBC1 */
+    --primary-50: 5 36% 73%; /* #DAA29E */
+    --primary-dark: 202 68% 15%; /* #0A3149 */
 
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
